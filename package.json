@@ -1,0 +1,17 @@
+{
+  "name": "vektor-job-engine",
+  "version": "1.0.0",
+  "private": false,
+  "description": "Remote job ingestion and qualification engine: board connectors, salary parsing in USD and BRL, seniority and salary-floor rules.",
+  "license": "MIT",
+  "type": "module",
+  "main": "src/index.ts",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "node scripts/test.mjs"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.0",
+    "typescript": "^5.9.0"
+  }
+}
